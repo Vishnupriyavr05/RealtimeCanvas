@@ -225,14 +225,3 @@ For a split deployment (static frontend + separate server), set `VITE_SERVER_URL
 
 Room isolation: create a second room in a third window — its traffic never reaches the first room (verified by `scripts/smoke-test.mjs`).
 
-## Future Improvements
-
-Not implemented — roadmap:
-
-- Persistent rooms (SQLite/Postgres) and shareable room URLs
-- Authentication and named identities
-- Redis adapter for horizontal scaling across server instances
-- CRDT/OT-based conflict resolution for concurrent edits
-- Object selection, move, and delete (the `select` tool is a placeholder)
-- Eraser-as-op semantic erasing of specific strokes
-- Infinite canvas with pan tool and minimap
